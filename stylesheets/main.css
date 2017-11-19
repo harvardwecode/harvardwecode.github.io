@@ -1,0 +1,103 @@
+/* Define constants */
+/* Main style */
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */
+  cursor: default; }
+  html section, body section {
+    width: 100%;
+    position: relative; }
+  html div, body div {
+    position: relative; }
+
+/* Common classes */
+.salmon {
+  color: #ff5a5f; }
+
+.grey {
+  opacity: 0.2; }
+
+.hidden {
+  display: none; }
+
+/* Navigation Bar */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff; }
+  #navbar a {
+    padding: 0 30px;
+    color: #ffffff;
+    text-decoration: none; }
+    #navbar a:hover {
+      color: #eaeaea; }
+
+/* Splash Section */
+section#splash {
+  height: 100%;
+  background: url(../assets/images/background.jpg);
+  background-size: cover;
+  background-position: center; }
+  section#splash .splash-main {
+    margin: auto;
+    padding-top: 30vh;
+    color: #ffffff; }
+    section#splash .splash-main h1 {
+      margin: 0;
+      width: auto;
+      font-family: "Arvo", monospace;
+      font-size: 110px;
+      text-align: center;
+      font-weight: 300; }
+    section#splash .splash-main p {
+      font-family: "Roboto", sans-serif;
+      font-size: 30px;
+      text-align: center;
+      font-weight: 200;
+      letter-spacing: 1.5px; }
+    section#splash .splash-main hr {
+      width: 300px;
+      height: 1px;
+      margin-top: -20px;
+      margin-bottom: -20px;
+      color: #ffffff;
+      background-color: #ffffff;
+      border: none; }
+
+section#about {
+  background-color: #fffffc;
+  width: 100%; }
+  section#about h2 {
+    font-family: "Arvo", monospace;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 0;
+    padding: 60px 60px 0 60px; }
+  section#about p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 20px 60px 60px 60px; }
+
+/*# sourceMappingURL=main.css.map */
