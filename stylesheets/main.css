@@ -90,15 +90,43 @@ section#about {
   background-color: white;
   width: 100%; }
   section#about #about-main {
-    padding: 80px 150px 100px 150px; }
-  section#about h2 {
+    padding: 80px 150px 75px 150px; }
+    section#about #about-main h2 {
+      font-family: "Arvo", monospace;
+      font-size: 40px;
+      font-weight: 300; }
+    section#about #about-main p {
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.2; }
+  section#about #about-statistics {
+    text-align: center;
+    padding: 0 0 100px 0; }
+    section#about #about-statistics p {
+      display: inline;
+      padding: 0 30px;
+      font-family: "Arvo", monospace;
+      font-size: 18px; }
+
+footer {
+  height: 80px;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff; }
+  footer #footer-brand {
+    float: left;
     font-family: "Arvo", monospace;
-    font-size: 40px;
+    font-size: 15px;
     font-weight: 300; }
-  section#about p {
+  footer #footer-contact {
+    float: right;
     font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 300;
-    line-height: 1.2; }
+    text-align: right; }
 
 /*# sourceMappingURL=main.css.map */
