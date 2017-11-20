@@ -44,20 +44,19 @@ html, body {
   z-index: 100;
   padding: 20px;
   text-align: center;
-  background-color: #000000;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #ffffff; }
   #navbar a {
     padding: 0 30px;
     color: #ffffff;
     text-decoration: none; }
     #navbar a:hover {
-      color: #eaeaea; }
+      color: #ff5a5f; }
 
 /* Splash Section */
 section#splash {
   height: 100%;
-  background: url(../assets/images/background.jpg);
+  background: url(../assets/images/cover.jpg);
   background-size: cover;
   background-position: center; }
   section#splash .splash-main {
@@ -72,7 +71,7 @@ section#splash {
       text-align: center;
       font-weight: 300; }
     section#splash .splash-main p {
-      font-family: "Roboto", sans-serif;
+      font-family: "Open Sans", sans-serif;
       font-size: 30px;
       text-align: center;
       font-weight: 200;
@@ -87,7 +86,8 @@ section#splash {
       border: none; }
 
 section#about {
-  background-color: #fffffc;
+  /*background-color: #fffffc;*/
+  background-color: white;
   width: 100%; }
   section#about #about-main {
     padding: 80px 150px 100px 150px; }
@@ -96,7 +96,7 @@ section#about {
     font-size: 40px;
     font-weight: 300; }
   section#about p {
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.2; }
