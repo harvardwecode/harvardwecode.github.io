@@ -33,3 +33,10 @@ $(function(){
 		resetCallback: function() {}
 	});
 });
+
+$(document).ready(function(){
+	$('#team-hidden').hide();
+    $('#team-expand').click(function() {
+		$('#team-hidden').toggle(1000);
+	});
+});

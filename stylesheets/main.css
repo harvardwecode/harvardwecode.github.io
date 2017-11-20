@@ -86,7 +86,6 @@ section#splash {
       border: none; }
 
 section#about {
-  /*background-color: #fffffc;*/
   background-color: white;
   width: 100%; }
   section#about #about-main {
@@ -102,12 +101,28 @@ section#about {
       line-height: 1.2; }
   section#about #about-statistics {
     text-align: center;
-    padding: 0 0 100px 0; }
+    padding: 0 0 75px 0; }
     section#about #about-statistics p {
       display: inline;
       padding: 0 30px;
       font-family: "Arvo", monospace;
       font-size: 18px; }
+
+section#team {
+  width: 100%; }
+  section#team #team-main {
+    padding: 0 150px 100px 150px; }
+    section#team #team-main h2 {
+      font-family: "Arvo", monospace;
+      font-size: 25px;
+      font-weight: 300; }
+      section#team #team-main h2:hover {
+        cursor: pointer; }
+    section#team #team-main p {
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.2; }
 
 footer {
   height: 80px;
