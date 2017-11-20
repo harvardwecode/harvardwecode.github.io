@@ -64,6 +64,7 @@ html, body {
   z-index: 100;
   padding: 20px;
   text-align: center;
+  background-color: $black;
 
   font-family: $roboto;
   color: $white;
@@ -124,18 +125,20 @@ section#about {
   background-color: #fffffc;
   width: 100%;
 
+  #about-main {
+    padding: 80px 150px 100px 150px;
+  }
+
   h2 {
     font-family: $arvo;
     font-size: 40px;
     font-weight: 300;
-    margin: 0;
-    padding: 60px 60px 0 60px;
   }
 
   p {
     font-family: $roboto;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 300;
-    padding: 20px 60px 60px 60px;
+    line-height: 1.2;
   }
 }

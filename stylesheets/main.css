@@ -44,6 +44,7 @@ html, body {
   z-index: 100;
   padding: 20px;
   text-align: center;
+  background-color: #000000;
   font-family: "Roboto", sans-serif;
   color: #ffffff; }
   #navbar a {
@@ -88,16 +89,16 @@ section#splash {
 section#about {
   background-color: #fffffc;
   width: 100%; }
+  section#about #about-main {
+    padding: 80px 150px 100px 150px; }
   section#about h2 {
     font-family: "Arvo", monospace;
     font-size: 40px;
-    font-weight: 300;
-    margin: 0;
-    padding: 60px 60px 0 60px; }
+    font-weight: 300; }
   section#about p {
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 300;
-    padding: 20px 60px 60px 60px; }
+    line-height: 1.2; }
 
 /*# sourceMappingURL=main.css.map */
