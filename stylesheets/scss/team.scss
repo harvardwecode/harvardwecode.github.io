@@ -1,0 +1,63 @@
+/* Define constants */
+$white: #ffffff;
+$black: #000000;
+$grey: #eaeaea;
+
+$salmon: #ff5a5f;
+
+$primary: #b2e1e8;
+$secondary: #98c4e0;
+$purple: #8b71b3;
+$subtle: #eaeaea;
+
+$arvo: 'Arvo', monospace;
+$open-sans: 'Open Sans', sans-serif;
+
+/* Hero Section */
+section#hero {
+  height: 100%;
+  background: url(../assets/images/team.jpg);
+  background-size: cover;
+  background-position: center;
+
+  .hero-main {
+    margin: auto;
+    padding-top: 30vh;
+    color: $white;
+
+    h1 {
+      margin: 0;
+      width: auto;
+      font-family: $arvo;
+      font-size: 110px;
+      text-align: center;
+      font-weight: 300;
+
+      background-color: rgba(234,234,234, 0.5);
+      padding: 30px 0;
+    }
+  }
+}
+
+/* Team Section */
+section#team {
+  background-color: white;
+  width: 100%;
+
+  #team-main {
+    padding: 80px 150px 75px 150px;
+
+    h2 {
+      font-family: $arvo;
+      font-size: 40px;
+      font-weight: 300;
+    }
+
+    p {
+      font-family: $open-sans;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.2;
+    }
+  }
+}
