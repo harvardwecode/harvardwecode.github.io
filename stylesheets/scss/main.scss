@@ -51,6 +51,10 @@ html, body {
   opacity: 0.2;
 }
 
+.bold {
+  font-weight: 400;
+}
+
 .hidden {
   display: none;
 }
@@ -125,7 +129,7 @@ section#about {
   width: 100%;
 
   #about-main {
-    padding: 80px 150px 75px 150px;
+    padding: 80px 150px 80px 150px;
 
     h2 {
       font-family: $arvo;
@@ -143,7 +147,7 @@ section#about {
 
   #about-statistics {
     text-align: center;
-    padding: 0 0 75px 0;
+    padding: 0 0 80px 0;
 
     p {
       display: inline;
@@ -155,37 +159,13 @@ section#about {
   }
 }
 
-section#team {
-  width: 100%;
-
-  #team-main {
-    padding: 0 150px 100px 150px;
-
-    h2 {
-      font-family: $arvo;
-      font-size: 25px;
-      font-weight: 300;
-
-      &:hover {
-        cursor: pointer;
-      }
-    }
-
-    p {
-      font-family: $open-sans;
-      font-size: 16px;
-      font-weight: 300;
-      line-height: 1.2;
-    }
-  }
-}
-
 section#faq {
-  background-color: url(../assets/images/team.jpg); //need different photo, temporary
+  /*background-color: rgba(68,68,68,0.5);*/
+  background-color: white;
   width: 100%;
 
   #faq-main {
-    padding: 80px 150px 75px 150px;
+    padding: 0px 150px 80px 150px;
 
     h2 {
       font-family: $arvo;
@@ -193,11 +173,29 @@ section#faq {
       font-weight: 300;
     }
 
-    p {
+    #faq-questions {
+      display: flex;
+
       font-family: $open-sans;
-      font-size: 16px;
       font-weight: 300;
-      line-height: 1.2;
+      text-align: center;
+
+      #questions-left {
+        padding-right: 20px;
+      }
+
+      #questions-right {
+        padding-left: 20px;
+      }
+
+      .question {
+        padding: 10px 0;
+      }
+
+      .bold {
+        display: block;
+        margin-bottom: 5px;
+      }
     }
   }
 }

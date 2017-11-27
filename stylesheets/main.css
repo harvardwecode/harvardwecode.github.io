@@ -32,6 +32,9 @@ html, body {
 .grey {
   opacity: 0.2; }
 
+.bold {
+  font-weight: 400; }
+
 .hidden {
   display: none; }
 
@@ -89,7 +92,7 @@ section#about {
   background-color: white;
   width: 100%; }
   section#about #about-main {
-    padding: 80px 150px 75px 150px; }
+    padding: 80px 150px 80px 150px; }
     section#about #about-main h2 {
       font-family: "Arvo", monospace;
       font-size: 40px;
@@ -101,43 +104,37 @@ section#about {
       line-height: 1.2; }
   section#about #about-statistics {
     text-align: center;
-    padding: 0 0 75px 0; }
+    padding: 0 0 80px 0; }
     section#about #about-statistics p {
       display: inline;
       padding: 0 30px;
       font-family: "Arvo", monospace;
       font-size: 18px; }
 
-section#team {
-  width: 100%; }
-  section#team #team-main {
-    padding: 0 150px 100px 150px; }
-    section#team #team-main h2 {
-      font-family: "Arvo", monospace;
-      font-size: 25px;
-      font-weight: 300; }
-      section#team #team-main h2:hover {
-        cursor: pointer; }
-    section#team #team-main p {
-      font-family: "Open Sans", sans-serif;
-      font-size: 16px;
-      font-weight: 300;
-      line-height: 1.2; }
-
 section#faq {
-  background-color: url(../assets/images/team.jpg);
+  /*background-color: rgba(68,68,68,0.5);*/
+  background-color: white;
   width: 100%; }
   section#faq #faq-main {
-    padding: 80px 150px 75px 150px; }
+    padding: 0px 150px 80px 150px; }
     section#faq #faq-main h2 {
       font-family: "Arvo", monospace;
       font-size: 40px;
       font-weight: 300; }
-    section#faq #faq-main p {
+    section#faq #faq-main #faq-questions {
+      display: flex;
       font-family: "Open Sans", sans-serif;
-      font-size: 16px;
       font-weight: 300;
-      line-height: 1.2; }
+      text-align: center; }
+      section#faq #faq-main #faq-questions #questions-left {
+        padding-right: 20px; }
+      section#faq #faq-main #faq-questions #questions-right {
+        padding-left: 20px; }
+      section#faq #faq-main #faq-questions .question {
+        padding: 10px 0; }
+      section#faq #faq-main #faq-questions .bold {
+        display: block;
+        margin-bottom: 5px; }
 
 footer {
   height: 80px;
