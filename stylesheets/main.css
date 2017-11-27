@@ -5,7 +5,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background-color: #ffffff;
+  background-color: #eaeaea;
   -webkit-touch-callout: none;
   /* iOS Safari */
   -webkit-user-select: none;
@@ -90,7 +90,8 @@ section#splash {
 
 section#about {
   background-color: white;
-  width: 100%; }
+  width: 90%;
+  margin: 0 auto; }
   section#about #about-main {
     padding: 80px 150px 80px 150px; }
     section#about #about-main h2 {
@@ -111,12 +112,21 @@ section#about {
       font-family: "Arvo", monospace;
       font-size: 18px; }
 
-section#faq {
-  /*background-color: rgba(68,68,68,0.5);*/
+section#photo-break {
   background-color: white;
-  width: 100%; }
+  width: 90%;
+  margin: 0 auto; }
+  section#photo-break div {
+    text-align: center; }
+    section#photo-break div img {
+      width: 33%; }
+
+section#faq {
+  background-color: white;
+  width: 90%;
+  margin: 0 auto; }
   section#faq #faq-main {
-    padding: 0px 150px 80px 150px; }
+    padding: 50px 150px 80px 150px; }
     section#faq #faq-main h2 {
       font-family: "Arvo", monospace;
       font-size: 40px;
