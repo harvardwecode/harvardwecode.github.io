@@ -132,6 +132,8 @@ section#faq {
         padding-left: 20px; }
       section#faq #faq-main #faq-questions .question {
         padding: 10px 0; }
+        section#faq #faq-main #faq-questions .question a {
+          text-decoration: none; }
       section#faq #faq-main #faq-questions .bold {
         display: block;
         margin-bottom: 5px; }
