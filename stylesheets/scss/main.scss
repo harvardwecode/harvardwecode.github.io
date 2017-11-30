@@ -130,7 +130,7 @@ section#about {
   margin: 0 auto;
 
   #about-main {
-    padding: 50px 150px 80px 150px;
+    padding: 50px 150px 30px 150px;
 
     h2 {
       font-family: $arvo;
@@ -150,12 +150,25 @@ section#about {
     text-align: center;
     padding: 0 0 80px 0;
 
-    p {
-      display: inline;
-      padding: 0 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .statistic {
+      display: flex;
+      flex-direction: column;
 
       font-family: $arvo;
-      font-size: 18px;
+      padding: 50px;
+
+      .number {
+        font-size: 35px;
+      }
+
+      p {
+        margin: 0;
+        font-size: 18px;
+      }
     }
   }
 }

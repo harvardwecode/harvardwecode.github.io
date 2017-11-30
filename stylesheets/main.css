@@ -93,7 +93,7 @@ section#about {
   width: 90%;
   margin: 0 auto; }
   section#about #about-main {
-    padding: 50px 150px 80px 150px; }
+    padding: 50px 150px 30px 150px; }
     section#about #about-main h2 {
       font-family: "Arvo", monospace;
       font-size: 40px;
@@ -105,12 +105,20 @@ section#about {
       line-height: 1.2; }
   section#about #about-statistics {
     text-align: center;
-    padding: 0 0 80px 0; }
-    section#about #about-statistics p {
-      display: inline;
-      padding: 0 30px;
+    padding: 0 0 80px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    section#about #about-statistics .statistic {
+      display: flex;
+      flex-direction: column;
       font-family: "Arvo", monospace;
-      font-size: 18px; }
+      padding: 50px; }
+      section#about #about-statistics .statistic .number {
+        font-size: 35px; }
+      section#about #about-statistics .statistic p {
+        margin: 0;
+        font-size: 18px; }
 
 section#photo-break {
   background-color: white;
