@@ -120,6 +120,67 @@ section#about {
         margin: 0;
         font-size: 18px; }
 
+section#register {
+  background-color: white;
+  width: 90%;
+  margin: 0 auto; }
+  section#register #register-main {
+    padding: 50px 150px 80px 150px; }
+    section#register #register-main h2 {
+      display: inline;
+      font-family: "Arvo", monospace;
+      font-size: 40px;
+      font-weight: 300;
+      margin-right: 50px; }
+    section#register #register-main div {
+      display: inline-block; }
+    section#register #register-main .button {
+      margin-top: 30px;
+      display: inline-block;
+      padding: 10px;
+      background-color: white;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      border-radius: 5px;
+      border-width: 3px;
+      border-style: solid;
+      font-family: "Arvo", monospace;
+      font-weight: 300;
+      text-decoration: none;
+      text-align: center; }
+    section#register #register-main .button-l {
+      border-color: #ff5a5f;
+      color: #ff5a5f;
+      font-size: 40px; }
+    section#register #register-main .button-l:visited {
+      text-decoration: none;
+      color: #ff5a5f; }
+    section#register #register-main .button-l:hover {
+      background-color: #ff5a5f;
+      color: white; }
+    section#register #register-main .button-s {
+      border-color: grey;
+      color: grey;
+      font-size: 20px; }
+    section#register #register-main .button-s:visited {
+      text-decoration: none;
+      color: grey; }
+    section#register #register-main .button-s:hover {
+      background-color: grey;
+      color: white; }
+    section#register #register-main #register-more {
+      width: 100%;
+      display: block;
+      margin-top: 30px; }
+      section#register #register-main #register-more .register-col {
+        width: 30%;
+        padding: 10px;
+        display: inline-block;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        text-align: center;
+        vertical-align: middle; }
+
 section#photo-break {
   background-color: white;
   width: 90%;
