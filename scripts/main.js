@@ -1,3 +1,4 @@
+/*
 $(function(){
 	$(".typed").typed({
 		strings: ["Women Engineers Code"],
@@ -33,10 +34,37 @@ $(function(){
 		resetCallback: function() {}
 	});
 });
+*/
 
 $(document).ready(function(){
+	/*
 	$('#team-hidden').hide();
     $('#team-expand').click(function() {
 		$('#team-hidden').toggle(1000);
+	});
+	*/
+
+	$('.count-high').each(function () {
+	    $(this).prop('Counter',0).animate({
+	        Counter: $(this).text()
+	    }, {
+	        duration: 1500,
+	        easing: 'swing',
+	        step: function (now) {
+	            $(this).text(Math.ceil(now));
+	        }
+	    });
+	});
+
+	$('.count-low').each(function () {
+	    $(this).prop('Counter',0).animate({
+	        Counter: $(this).text()
+	    }, {
+	        duration: 1000,
+	        easing: 'swing',
+	        step: function (now) {
+	            $(this).text(Math.ceil(now));
+	        }
+	    });
 	});
 });
