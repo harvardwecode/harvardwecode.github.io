@@ -266,6 +266,52 @@ section#colorblock {
   margin: 0 auto;
 }
 
+section#programming {
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+
+  #programming-main {
+    padding: 50px 150px 80px 150px;
+
+    font-family: $open-sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.2;
+
+    h2 {
+      font-family: $arvo;
+      font-size: 40px;
+      font-weight: 300;
+    }
+
+    h3 {
+      font-family: $arvo;
+      font-size: 20px;
+      font-weight: 300;
+      color: $salmon;
+    }
+
+    #programming-sections {
+      display: flex;
+
+      .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50%;
+        text-align: center;
+        padding: 0 20px;
+
+        ul {
+          list-style-type: none;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
 section#photo-break {
   background-color: white;
   width: 90%;
