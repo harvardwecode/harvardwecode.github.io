@@ -59,7 +59,7 @@ section#splash {
         font-size: 16px;
         margin: 0; }
     section#splash .splash-main #navbar {
-      width: 80%;
+      width: 70%;
       font-family: "Open Sans", sans-serif; }
       section#splash .splash-main #navbar a {
         margin: 0 20px;
@@ -69,6 +69,17 @@ section#splash {
         font-size: 14px; }
         section#splash .splash-main #navbar a:hover {
           border-bottom: 4px solid rgba(255, 90, 95, 0.3); }
+  section#splash #team {
+    width: 10%;
+    font-family: "Open Sans", sans-serif;
+    text-align: center; }
+    section#splash #team a {
+      padding: 0 6px;
+      text-decoration: none;
+      color: #000000;
+      font-size: 14px; }
+      section#splash #team a:hover {
+        border-bottom: 4px solid rgba(255, 90, 95, 0.3); }
   section#splash #hero {
     height: 75%;
     background: url("../assets/images/hero.jpg");
@@ -88,35 +99,33 @@ section#splash {
 
 section#about {
   background-color: white;
-  width: 90%;
   margin: 0 auto; }
-  section#about #about-main {
-    padding: 50px 150px 30px 150px; }
-    section#about #about-main h2 {
+  section#about .banner-1 {
+    background: url("../assets/images/banner-1.svg");
+    background-size: cover;
+    background-position: center;
+    height: 10%;
+    padding: 35px; }
+    section#about .banner-1 h2 {
       font-family: "Arvo", monospace;
-      font-size: 40px;
-      font-weight: 300; }
+      font-size: 35px;
+      font-weight: 300;
+      color: #ffffff;
+      margin: 0; }
+  section#about #about-main {
+    padding: 0px 150px 30px 150px;
+    text-align: center; }
+    section#about #about-main h3 {
+      font-family: "Arvo", monospace;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: .6; }
     section#about #about-main p {
       font-family: "Open Sans", sans-serif;
       font-size: 16px;
       font-weight: 300;
-      line-height: 1.2; }
-  section#about #about-statistics {
-    text-align: center;
-    padding: 0 0 80px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center; }
-    section#about #about-statistics .statistic {
-      display: flex;
-      flex-direction: column;
-      font-family: "Arvo", monospace;
-      padding: 50px; }
-      section#about #about-statistics .statistic .number {
-        font-size: 35px; }
-      section#about #about-statistics .statistic p {
-        margin: 0;
-        font-size: 18px; }
+      line-height: 1.2;
+      padding-top: 10px; }
 
 section#register {
   background-color: #4f4f4f;
