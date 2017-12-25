@@ -59,67 +59,71 @@ html, body {
   display: none;
 }
 
-/* Navigation Bar */
-#navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 100;
-  padding: 20px;
-  text-align: center;
-
-  font-family: $open-sans;
-  color: $white;
-
-  a {
-    padding: 0 30px;
-    color: $white;
-    text-decoration: none;
-
-    &:hover {
-      color: $salmon;
-    }
-  }
-}
-
 /* Splash Section */
 section#splash {
   height: 100%;
-  background: url(../assets/images/cover.jpg);
-  background-size: cover;
-  background-position: center;
+  background-color: $white;
 
   .splash-main {
-    margin: auto;
-    padding-top: 30vh;
-    color: $white;
+    display: flex;
+    align-items: center;
 
-    h1 {
-      margin: 0;
-      width: auto;
-      font-family: $arvo;
-      font-size: 110px;
+    .heading {
+      width: 20%;
+      padding: 10px 0 15px 0;
       text-align: center;
-      font-weight: 300;
+
+      h1 {
+        font-family: $arvo;
+        font-size: 40px;
+        font-weight: 300;
+        margin: 0px;
+      }
+
+      p {
+        font-family: $open-sans;
+        font-size: 16px;
+        margin: 0;
+      }
     }
+
+    #navbar {
+      width: 80%;
+      font-family: $open-sans;
+
+      a {
+        margin: 0 20px;
+        padding: 0 6px;
+        text-decoration: none;
+        color: $black;
+        font-size: 14px;
+
+        &:hover {
+          border-bottom: 4px solid rgba(255,90,95,0.3);
+        }
+      }
+    }
+  }
+
+  #hero {
+    height: 75%;
+    background: url('../assets/images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  #slogan {
+    display: flex;
+    justify-content: center;
 
     p {
       font-family: $open-sans;
-      font-size: 30px;
+      font-size: 25px;
+      line-height: 0.5;
+      margin-top: 35px;
+      padding: 0 6px;
+      border-bottom: 8px solid rgba(255,90,95,0.3);
       text-align: center;
-      font-weight: 200;
-      letter-spacing: 1.5px;
-    }
-
-    hr {
-      width: 300px;
-      height: 1px;
-      margin-top: -20px;
-      margin-bottom: -20px;
-      color: $white;
-      background-color: $white;
-      border: none;
     }
   }
 }

@@ -38,55 +38,53 @@ html, body {
 .hidden {
   display: none; }
 
-/* Navigation Bar */
-#navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 100;
-  padding: 20px;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  color: #ffffff; }
-  #navbar a {
-    padding: 0 30px;
-    color: #ffffff;
-    text-decoration: none; }
-    #navbar a:hover {
-      color: #ff5a5f; }
-
 /* Splash Section */
 section#splash {
   height: 100%;
-  background: url(../assets/images/cover.jpg);
-  background-size: cover;
-  background-position: center; }
+  background-color: #ffffff; }
   section#splash .splash-main {
-    margin: auto;
-    padding-top: 30vh;
-    color: #ffffff; }
-    section#splash .splash-main h1 {
-      margin: 0;
-      width: auto;
-      font-family: "Arvo", monospace;
-      font-size: 110px;
-      text-align: center;
-      font-weight: 300; }
-    section#splash .splash-main p {
+    display: flex;
+    align-items: center; }
+    section#splash .splash-main .heading {
+      width: 20%;
+      padding: 10px 0 15px 0;
+      text-align: center; }
+      section#splash .splash-main .heading h1 {
+        font-family: "Arvo", monospace;
+        font-size: 40px;
+        font-weight: 300;
+        margin: 0px; }
+      section#splash .splash-main .heading p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        margin: 0; }
+    section#splash .splash-main #navbar {
+      width: 80%;
+      font-family: "Open Sans", sans-serif; }
+      section#splash .splash-main #navbar a {
+        margin: 0 20px;
+        padding: 0 6px;
+        text-decoration: none;
+        color: #000000;
+        font-size: 14px; }
+        section#splash .splash-main #navbar a:hover {
+          border-bottom: 4px solid rgba(255, 90, 95, 0.3); }
+  section#splash #hero {
+    height: 75%;
+    background: url("../assets/images/hero.jpg");
+    background-size: cover;
+    background-position: center; }
+  section#splash #slogan {
+    display: flex;
+    justify-content: center; }
+    section#splash #slogan p {
       font-family: "Open Sans", sans-serif;
-      font-size: 30px;
-      text-align: center;
-      font-weight: 200;
-      letter-spacing: 1.5px; }
-    section#splash .splash-main hr {
-      width: 300px;
-      height: 1px;
-      margin-top: -20px;
-      margin-bottom: -20px;
-      color: #ffffff;
-      background-color: #ffffff;
-      border: none; }
+      font-size: 25px;
+      line-height: 0.5;
+      margin-top: 35px;
+      padding: 0 6px;
+      border-bottom: 8px solid rgba(255, 90, 95, 0.3);
+      text-align: center; }
 
 section#about {
   background-color: white;
