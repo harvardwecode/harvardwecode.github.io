@@ -145,26 +145,44 @@ section#splash {
   }
 }
 
+.banner-1 {
+  background: url('../assets/images/banner-1.svg');
+  text-align: left;
+  padding: 35px;
+
+  h2 {
+    margin: 0;
+  }
+}
+
+.banner-2 {
+  background: url('../assets/images/banner-2.svg');
+  text-align: right;
+  padding: 35px;
+  margin-top: -40px;
+
+  h2 {
+    margin-top: 30px;
+  }
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  height: 10%;
+
+  h2 {
+    font-family: $arvo;
+    font-size: 35px;
+    font-weight: 300;
+    color: $white;
+  }
+}
+
 section#about {
   background-color: white;
   margin: 0 auto;
-
-  .banner-1 {
-    background: url('../assets/images/banner-1.svg');
-    background-size: cover;
-    background-position: center;
-    height: 10%;
-    padding: 35px;
-
-    h2 {
-      font-family: $arvo;
-      font-size: 35px;
-      font-weight: 300;
-      color: $white;
-
-      margin: 0;
-    }
-  }
 
   #about-main {
     padding: 0px 150px 30px 150px;
@@ -185,6 +203,21 @@ section#about {
 
       padding-top: 10px;
     }
+  }
+}
+
+section#schedule {
+  background-color: $salmon;
+  margin: 0 auto;
+  
+  #schedule-main {
+    padding: 0px 35px 30px 35px;
+    text-align: right;
+
+    color: $white;
+    font-family: $open-sans;
+    font-size: 16px;
+    font-weight: 300;
   }
 }
 
