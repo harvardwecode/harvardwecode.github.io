@@ -42,7 +42,7 @@ section#splash {
 /* Team Section */
 section#team {
   margin: 0;
-  padding: -20px 0 20px 0;
+  padding: 20px 0 50px 0;
   background-color: white; }
   section#team #slogan {
     display: flex;
