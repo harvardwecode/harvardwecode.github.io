@@ -88,7 +88,24 @@ section#splash {
     }
 
     #navbar {
-      width: 80%;
+      width: 70%;
+      font-family: $open-sans;
+
+      a {
+        margin: 0 20px;
+        padding: 0 6px;
+        text-decoration: none;
+        color: $black;
+        font-size: 14px;
+
+        &:hover {
+          border-bottom: 4px solid rgba(255,90,95,0.3);
+        }
+      }
+    }
+
+    #team {
+      width: 10%;
       font-family: $open-sans;
 
       a {

@@ -59,7 +59,7 @@ section#splash {
         font-size: 16px;
         margin: 0; }
     section#splash .splash-main #navbar {
-      width: 80%;
+      width: 70%;
       font-family: "Open Sans", sans-serif; }
       section#splash .splash-main #navbar a {
         margin: 0 20px;
@@ -68,6 +68,17 @@ section#splash {
         color: #000000;
         font-size: 14px; }
         section#splash .splash-main #navbar a:hover {
+          border-bottom: 4px solid rgba(255, 90, 95, 0.3); }
+    section#splash .splash-main #team {
+      width: 10%;
+      font-family: "Open Sans", sans-serif; }
+      section#splash .splash-main #team a {
+        margin: 0 20px;
+        padding: 0 6px;
+        text-decoration: none;
+        color: #000000;
+        font-size: 14px; }
+        section#splash .splash-main #team a:hover {
           border-bottom: 4px solid rgba(255, 90, 95, 0.3); }
   section#splash #hero {
     height: 75%;
