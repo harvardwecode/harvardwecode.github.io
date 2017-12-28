@@ -1,38 +1,43 @@
 /* Define constants */
-/* Hero Section */
-section#hero {
+/* Splash Section */
+section#splash {
   height: 100%;
-  background: url(../assets/images/team.jpg);
-  background-size: cover;
-  background-position: center; }
-  section#hero .hero-main {
-    margin: auto;
-    padding-top: 30vh;
-    color: #ffffff; }
-    section#hero .hero-main h1 {
-      margin: 0;
-      width: auto;
-      font-family: "Arvo", monospace;
-      font-size: 110px;
-      text-align: center;
-      font-weight: 300;
-      background-color: rgba(234, 234, 234, 0.5);
-      padding: 30px 0; }
-
-/* Team Section */
-section#team {
-  background-color: white;
-  width: 100%; }
-  section#team #team-main {
-    padding: 80px 150px 75px 150px; }
-    section#team #team-main h2 {
-      font-family: "Arvo", monospace;
-      font-size: 40px;
-      font-weight: 300; }
-    section#team #team-main p {
-      font-family: "Open Sans", sans-serif;
-      font-size: 16px;
-      font-weight: 300;
-      line-height: 1.2; }
+  background-color: #ffffff; }
+  section#splash .splash-main {
+    display: flex;
+    align-items: center; }
+    section#splash .splash-main .heading {
+      width: 20%;
+      padding: 10px 0 15px 0;
+      text-align: center; }
+      section#splash .splash-main .heading h1 {
+        font-family: "Arvo", monospace;
+        font-size: 40px;
+        font-weight: 300;
+        margin: 0px; }
+      section#splash .splash-main .heading p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        margin: 0; }
+    section#splash .splash-main #navbar {
+      width: 70%;
+      font-family: "Open Sans", sans-serif; }
+      section#splash .splash-main #navbar a {
+        margin: 0 20px;
+        padding: 0 6px;
+        text-decoration: none;
+        color: #000000;
+        font-size: 14px; }
+        section#splash .splash-main #navbar a:hover {
+          border-bottom: 4px solid rgba(255, 90, 95, 0.3); }
+    section#splash .splash-main #team {
+      width: 10%;
+      font-family: "Open Sans", sans-serif; }
+      section#splash .splash-main #team a {
+        margin: 0 20px;
+        padding: 0 6px;
+        text-decoration: none;
+        color: #ff5a5f;
+        font-size: 14px; }
 
 /*# sourceMappingURL=team.css.map */

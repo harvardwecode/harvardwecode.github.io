@@ -13,51 +13,62 @@ $subtle: #eaeaea;
 $arvo: 'Arvo', monospace;
 $open-sans: 'Open Sans', sans-serif;
 
-/* Hero Section */
-section#hero {
+/* Splash Section */
+section#splash {
   height: 100%;
-  background: url(../assets/images/team.jpg);
-  background-size: cover;
-  background-position: center;
+  background-color: $white;
 
-  .hero-main {
-    margin: auto;
-    padding-top: 30vh;
-    color: $white;
+  .splash-main {
+    display: flex;
+    align-items: center;
 
-    h1 {
-      margin: 0;
-      width: auto;
-      font-family: $arvo;
-      font-size: 110px;
+    .heading {
+      width: 20%;
+      padding: 10px 0 15px 0;
       text-align: center;
-      font-weight: 300;
 
-      background-color: rgba(234,234,234, 0.5);
-      padding: 30px 0;
-    }
-  }
-}
+      h1 {
+        font-family: $arvo;
+        font-size: 40px;
+        font-weight: 300;
+        margin: 0px;
+      }
 
-/* Team Section */
-section#team {
-  background-color: white;
-  width: 100%;
-
-  #team-main {
-    padding: 80px 150px 75px 150px;
-
-    h2 {
-      font-family: $arvo;
-      font-size: 40px;
-      font-weight: 300;
+      p {
+        font-family: $open-sans;
+        font-size: 16px;
+        margin: 0;
+      }
     }
 
-    p {
+    #navbar {
+      width: 70%;
       font-family: $open-sans;
-      font-size: 16px;
-      font-weight: 300;
-      line-height: 1.2;
+
+      a {
+        margin: 0 20px;
+        padding: 0 6px;
+        text-decoration: none;
+        color: $black;
+        font-size: 14px;
+
+        &:hover {
+          border-bottom: 4px solid rgba(255,90,95,0.3);
+        }
+      }
+    }
+
+    #team {
+      width: 10%;
+      font-family: $open-sans;
+
+      a {
+        margin: 0 20px;
+        padding: 0 6px;
+        text-decoration: none;
+        color: $salmon;
+        font-size: 14px;
+      }
     }
   }
 }
