@@ -15,8 +15,7 @@ $open-sans: 'Open Sans', sans-serif;
 
 /* Splash Section */
 section#splash {
-  height: 100%;
-  background-color: $white;
+  height: 90px;
 
   .splash-main {
     display: flex;
@@ -68,6 +67,45 @@ section#splash {
         text-decoration: none;
         color: $salmon;
         font-size: 14px;
+      }
+    }
+  }
+}
+
+/* Team Section */
+section#team {
+  margin: 0;
+  padding: -20px 0 20px 0;
+  background-color: white;
+
+  .row {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .member {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 20px;
+
+      img {
+        width: 150px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-family: $open-sans;
+        color: $black;
+        font-size: 14px;
+        margin: 0;
+      }
+
+      .head {
+        color: $salmon;
       }
     }
   }

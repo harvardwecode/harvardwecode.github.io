@@ -1,8 +1,7 @@
 /* Define constants */
 /* Splash Section */
 section#splash {
-  height: 100%;
-  background-color: #ffffff; }
+  height: 90px; }
   section#splash .splash-main {
     display: flex;
     align-items: center; }
@@ -39,5 +38,33 @@ section#splash {
         text-decoration: none;
         color: #ff5a5f;
         font-size: 14px; }
+
+/* Team Section */
+section#team {
+  margin: 0;
+  padding: -20px 0 20px 0;
+  background-color: white; }
+  section#team .row {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    section#team .row .member {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 20px; }
+      section#team .row .member img {
+        width: 150px;
+        margin-top: 30px;
+        margin-bottom: 10px; }
+      section#team .row .member p {
+        font-family: "Open Sans", sans-serif;
+        color: #000000;
+        font-size: 14px;
+        margin: 0; }
+      section#team .row .member .head {
+        color: #ff5a5f; }
 
 /*# sourceMappingURL=team.css.map */
