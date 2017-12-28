@@ -44,6 +44,17 @@ section#team {
   margin: 0;
   padding: -20px 0 20px 0;
   background-color: white; }
+  section#team #slogan {
+    display: flex;
+    justify-content: center; }
+    section#team #slogan p {
+      font-family: "Open Sans", sans-serif;
+      font-size: 25px;
+      line-height: 0.5;
+      margin-top: 35px;
+      padding: 0 6px;
+      border-bottom: 8px solid rgba(255, 90, 95, 0.3);
+      text-align: center; }
   section#team .row {
     margin: 0 auto;
     width: 80%;
