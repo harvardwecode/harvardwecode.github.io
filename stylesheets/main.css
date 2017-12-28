@@ -108,9 +108,14 @@ section#splash {
   background: url("../assets/images/banner-2.svg");
   text-align: right;
   padding: 35px;
-  margin-top: -40px; }
+  margin-top: -20px; }
   .banner-2 h2 {
     margin-top: 30px; }
+
+.banner-3 {
+  background: url("../assets/images/banner-3.svg");
+  padding: 45px;
+  margin-top: -20px; }
 
 .banner {
   background-size: cover;
@@ -152,47 +157,7 @@ section#schedule {
     font-size: 16px;
     font-weight: 300; }
 
-section#register {
-  background-color: #4f4f4f;
-  width: 90%;
-  margin: 0 auto; }
-  section#register #register-main {
-    padding: 50px 150px 80px 150px; }
-    section#register #register-main h2 {
-      font-family: "Arvo", monospace;
-      font-size: 40px;
-      font-weight: 300;
-      color: white; }
-    section#register #register-main p {
-      font-family: "Open Sans", sans-serif;
-      font-size: 16px;
-      font-weight: 300;
-      line-height: 1.2;
-      color: white; }
-    section#register #register-main #columns {
-      display: flex; }
-      section#register #register-main #columns .column {
-        width: 33.33%;
-        padding: 0 15px;
-        text-align: center; }
-        section#register #register-main #columns .column .title {
-          text-transform: uppercase;
-          font-weight: 400;
-          font-size: 20px; }
-        section#register #register-main #columns .column div a {
-          font-family: "Arvo", monospace;
-          color: white;
-          text-decoration: none;
-          padding-bottom: 4px;
-          border-bottom: 1px dashed #ffffff;
-          line-height: 50px;
-          -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s; }
-          section#register #register-main #columns .column div a:hover {
-            color: #7a7a7a; }
-
 section#banner {
-  /*background-color: #fffdf7;*/
   background-color: white;
   width: 90%;
   margin: 0 auto; }

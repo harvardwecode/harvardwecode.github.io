@@ -159,11 +159,17 @@ section#splash {
   background: url('../assets/images/banner-2.svg');
   text-align: right;
   padding: 35px;
-  margin-top: -40px;
+  margin-top: -20px;
 
   h2 {
     margin-top: 30px;
   }
+}
+
+.banner-3 {
+  background: url('../assets/images/banner-3.svg');
+  padding: 45px;
+  margin-top: -20px;
 }
 
 .banner {
@@ -221,68 +227,7 @@ section#schedule {
   }
 }
 
-section#register {
-  background-color: #4f4f4f;
-  width: 90%;
-  margin: 0 auto;
-
-  #register-main {
-    padding: 50px 150px 80px 150px;
-
-    h2 {
-      font-family: $arvo;
-      font-size: 40px;
-      font-weight: 300;
-      color: white;
-    }
-
-    p {
-      font-family: $open-sans;
-      font-size: 16px;
-      font-weight: 300;
-      line-height: 1.2;
-      color: white;
-    }
-
-    #columns {
-      display: flex;
-
-      .column {
-        width: 33.33%;
-        padding: 0 15px;
-        text-align: center;
-
-        .title {
-          text-transform: uppercase;
-          font-weight: 400;
-          font-size: 20px;
-        }
-
-        div {
-          a {
-            font-family: $arvo;
-            color: white;
-            text-decoration: none;
-            padding-bottom: 4px;
-            border-bottom: 1px dashed $white;
-
-            line-height: 50px;
-
-            -webkit-transition-duration: 0.3s;
-            transition-duration: 0.3s;
-
-            &:hover {
-              color: #7a7a7a;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
 section#banner {
-  /*background-color: #fffdf7;*/
   background-color: white;
   width: 90%;
   margin: 0 auto;
