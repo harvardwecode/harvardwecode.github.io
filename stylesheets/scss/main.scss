@@ -317,6 +317,11 @@ section#programming {
       color: $salmon;
     }
 
+    a {
+      color: $salmon;
+      text-decoration: none;
+    }
+
     #programming-sections {
       display: flex;
 
@@ -372,6 +377,11 @@ section#sponsors {
       color: white;
 
       margin-bottom: 40px;
+
+      a {
+        color: $salmon;
+        text-decoration: none;
+      }
     }
 
     .logos {

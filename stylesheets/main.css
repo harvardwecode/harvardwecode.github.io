@@ -204,6 +204,9 @@ section#programming {
       font-size: 20px;
       font-weight: 300;
       color: #ff5a5f; }
+    section#programming #programming-main a {
+      color: #ff5a5f;
+      text-decoration: none; }
     section#programming #programming-main #programming-sections {
       display: flex; }
       section#programming #programming-main #programming-sections .section {
@@ -242,6 +245,9 @@ section#sponsors {
       line-height: 1.2;
       color: white;
       margin-bottom: 40px; }
+      section#sponsors #sponsors-main p a {
+        color: #ff5a5f;
+        text-decoration: none; }
     section#sponsors #sponsors-main .logos {
       text-align: center;
       margin: 30px 0; }
