@@ -22,15 +22,6 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background-color: $grey;
-
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
-  cursor: default;
 
   section {
     width: 100%;
@@ -150,12 +141,8 @@ section#splash {
 }
 
 section#about {
-  background-color: white;
-  width: 90%;
-  margin: 0 auto;
-
   #about-main {
-    padding: 50px 150px 30px 150px;
+    padding: 50px 150px 0px 150px;
 
     h2 {
       font-family: $arvo;
@@ -200,7 +187,7 @@ section#about {
 
 section#register {
   background-color: #4f4f4f;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 
   #register-main {
@@ -259,9 +246,6 @@ section#register {
 }
 
 section#banner {
-  /*background-color: #fffdf7;*/
-  background-color: white;
-  width: 90%;
   margin: 0 auto;
 
   #banner-main {
@@ -286,14 +270,11 @@ section#banner {
 
 section#colorblock {
   background-color: #4f4f4f;
-  width: 90%;
   height: 40px;
   margin: 0 auto;
 }
 
 section#programming {
-  background-color: white;
-  width: 90%;
   margin: 0 auto;
 
   #programming-main {
@@ -338,8 +319,6 @@ section#programming {
 }
 
 section#photo-break {
-  background-color: white;
-  width: 90%;
   margin: 0 auto;
   padding-top: 4px;
 
@@ -354,7 +333,6 @@ section#photo-break {
 
 section#sponsors {
   background-color: #4f4f4f;
-  width: 90%;
   margin: 0 auto;
 
   #sponsors-main {
@@ -411,8 +389,6 @@ section#sponsors {
 }
 
 section#faq {
-  background-color: white;
-  width: 90%;
   margin: 0 auto;
 
   #faq-main {
@@ -462,12 +438,12 @@ footer {
   justify-content: space-between;
   align-items: center;
 
-  background-color: $grey;
+  background-color: #4f4f4f;
   color: $white;
 
   #footer-brand {
     float: left;
-    font-family: $arvo;
+    font-family: $open-sans;
     font-size: 15px;
     font-weight: 200;
   }
