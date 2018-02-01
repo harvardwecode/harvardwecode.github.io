@@ -40,14 +40,17 @@ html, body {
 
 /* Splash Section */
 section#splash {
-  height: 100%;
-  background-color: #ffffff; }
+  height: 100vh;
+  background: url("../assets/images/hero-2.jpg");
+  background-size: cover;
+  background-position: center; }
   section#splash .splash-main {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    height: 90px;
+    background-color: #ffffff; }
     section#splash .splash-main .heading {
       width: 20%;
-      padding: 10px 0 15px 0;
       text-align: center; }
       section#splash .splash-main .heading h1 {
         font-family: "Arvo", monospace;
@@ -80,22 +83,22 @@ section#splash {
         font-size: 14px; }
         section#splash .splash-main #team a:hover {
           border-bottom: 4px solid rgba(255, 90, 95, 0.3); }
-  section#splash #hero {
-    height: 75%;
-    background: url("../assets/images/hero.jpg");
-    background-size: cover;
-    background-position: center; }
   section#splash #slogan {
-    display: flex;
-    justify-content: center; }
+    position: absolute;
+    top: 110px;
+    right: 50px;
+    text-align: right;
+    border-right: 7px solid rgba(255, 90, 95, 0.5);
+    padding-right: 20px; }
     section#splash #slogan p {
       font-family: "Open Sans", sans-serif;
       font-size: 25px;
+      font-weight: 300;
       line-height: 0.5;
-      margin-top: 35px;
-      padding: 0 6px;
-      border-bottom: 8px solid rgba(255, 90, 95, 0.3);
-      text-align: center; }
+      color: #ffffff; }
+  section#splash #main-banner {
+    position: absolute;
+    bottom: 0; }
 
 section#about {
   background-color: white;

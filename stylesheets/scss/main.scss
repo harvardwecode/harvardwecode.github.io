@@ -61,16 +61,19 @@ html, body {
 
 /* Splash Section */
 section#splash {
-  height: 100%;
-  background-color: $white;
+  height: 100vh;
+  background: url('../assets/images/hero-2.jpg');
+  background-size: cover;
+  background-position: center;
 
   .splash-main {
     display: flex;
     align-items: center;
+    height: 90px;
+    background-color: $white;
 
     .heading {
       width: 20%;
-      padding: 10px 0 15px 0;
       text-align: center;
 
       h1 {
@@ -122,26 +125,27 @@ section#splash {
     }
   }
 
-  #hero {
-    height: 75%;
-    background: url('../assets/images/hero.jpg');
-    background-size: cover;
-    background-position: center;
-  }
-
   #slogan {
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    top: 110px;
+    right: 50px;
+    text-align: right;
+    border-right: 7px solid rgba(255,90,95,0.5);
+    padding-right: 20px;
 
     p {
       font-family: $open-sans;
       font-size: 25px;
+      font-weight: 300;
       line-height: 0.5;
-      margin-top: 35px;
-      padding: 0 6px;
-      border-bottom: 8px solid rgba(255,90,95,0.3);
-      text-align: center;
+      color: $white;
+
     }
+  }
+
+  #main-banner {
+    position: absolute;
+    bottom: 0;
   }
 }
 
