@@ -82,6 +82,19 @@ section#splash {
       font-weight: 300;
       line-height: 0.5;
       color: #ffffff; }
+  section#splash #registration-link {
+    position: absolute;
+    bottom: 20px;
+    left: 30px; }
+    section#splash #registration-link p {
+      font-family: "Arvo", monospace;
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 0.5;
+      color: #3a3a3a; }
+      section#splash #registration-link p a {
+        color: #ff5a5f;
+        text-decoration: none; }
   section#splash #main-banner {
     position: absolute;
     bottom: 0; }

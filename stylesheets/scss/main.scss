@@ -134,6 +134,25 @@ section#splash {
     }
   }
 
+  #registration-link {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+
+    p {
+      font-family: $arvo;
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 0.5;
+      color: #3a3a3a;
+
+      a {
+        color: $salmon;
+        text-decoration: none;
+      }
+    }
+  }
+
   #main-banner {
     position: absolute;
     bottom: 0;
